@@ -1,0 +1,46 @@
+/* 6. SECTION THREE */
+
+.free-open {
+    margin-top: 5rem;
+}
+
+.free-open__content {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 6.1 IMG */
+
+.free-open__content__img {
+    width: 40vw;
+    min-width: 20em;
+    height: 70vh;
+    min-height: 30em;
+    margin-right: 1rem;
+}
+
+/* 6.2 INFO */
+
+.free-open__content__info {
+    align-self: center;
+}
+
+.free-open__content__info div {
+    width: 33vw;
+    max-width: 35em;
+}
+
+.free-open__content__info div + div {
+    margin-top: 2rem;
+}
+
+.free-open__content__info h3 {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.free-open__content__info p {
+    font-size: .9em;
+    color: var(--Grayish-blue);
+}

@@ -1,0 +1,134 @@
+.header {
+    height: 60vh;
+    padding: 2rem 0 10rem 0;
+    border-bottom-left-radius: 100px;
+}
+
+.bg-shapes {
+    background-image: url(../images/bg-pattern-intro.svg), linear-gradient(to right, var(--Very-light-red-lg), var(--Light-red-lg));
+    background-size: cover, contain;
+    background-position: 50%, 0;
+    background-repeat: no-repeat;
+}
+
+/* 3.1 LOGO and NAV */
+
+.logo-nav-login-signup  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+}
+
+.logo-nav {
+    width: 17vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 3.1.1 LOGO */
+
+.logo-nav__logo {
+    font-size: 2em;
+    color: var(--white);
+}
+
+/* 3.1.2 NAV */
+
+/* 3.1.2.1 NAV GENERAL */
+
+.logo-nav__nav {
+    width: 50%;
+    align-self: center;
+    margin-top: .2rem;
+    margin-left: 1.8rem;
+}
+
+.logo-nav__nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-nav__nav-items > li {
+    position: relative;
+    height: 1em;
+    /* background-image: url(../../images/icon-arrow-light.svg);
+    background-repeat: no-repeat;
+    background-position: center right; */
+}
+
+.logo-nav__nav-items > li + li {
+    margin-left: 1.8rem;
+}
+
+.logo-nav__nav-items > li > button {
+    font-size: .9em;
+    color: var(--white);
+    cursor: pointer;
+    transition: color .1s ease-in;
+}
+
+.logo-nav__nav-items > li > button:hover {
+    opacity: .9;
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: absolute;
+    top: 1.9em;
+    left: -1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 10vw;
+    background: var(--white);
+    border-radius: 5px;
+    padding: .7rem  3rem 1.5rem 2rem; 
+}
+
+.dropdown button {
+    margin-top: .7rem;
+    cursor: pointer;
+}
+
+.dropdown button:hover {
+    font-weight: 600;
+}
+
+/* 3.1.2.2 NAV SIGNUP-LOGIN */
+
+.login-signup__nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login, .signup {
+    color: var(--white);
+    font-size: .9em;
+    margin-top: .9rem;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.signup {
+    font-weight: 600;
+    color: var(--Light-red);
+    background: var(--white);
+    padding: .58rem 1.9rem;
+    border-radius: 50px;
+}
+
+.login-signup__nav-items li + li {
+    margin-left: 1.3rem;
+}
+
+.login:hover {
+    opacity: .9;
+    text-decoration: underline;
+}
+
+.signup:hover {
+    background: var(--Very-light-red);
+    color: var(--white);
+}

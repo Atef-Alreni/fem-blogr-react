@@ -1,0 +1,46 @@
+/* 7. FOOTER */
+
+.footer {
+    margin-top: 8rem;
+    background: var(--Very-dark-black-blue);
+    border-radius: 0 150px 0 0;
+    height: 35vh;
+}
+
+/* 7.1 ALIGNMENT */
+
+.footer-flex {
+    display: flex;
+    justify-content: flex-start;
+    padding: 3rem;
+}
+
+/* 7.3 FOOTER LOGO */
+
+.logo {
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--white);
+}
+
+/* 7.2 FOOTER LINKS */
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.footer-links h5 {
+    color: var(--white);
+    margin-bottom: .5rem;
+}
+
+.footer-links li {
+    font-size: .8em;
+    text-decoration: none;
+    color: var(--Grayish-blue);
+    margin-bottom: .2rem;
+}

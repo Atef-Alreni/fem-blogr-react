@@ -1,0 +1,57 @@
+/* 3.2 HERO */
+
+.hero {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 200;
+}
+
+.hero__title, .hero__text {
+    color: var(--white);
+}
+
+.hero__title {
+    font-size: 2.7em;
+    text-align: center;
+}
+
+.hero__text {
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 0.8rem;
+}
+
+.hero__call-to-action {
+    margin-top: 2.5rem;
+}
+
+.hero__call-to-action > button {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: var(--Light-red);
+    background: var(--white);
+    padding: 0.8rem 1.2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .2s ease-in;
+}
+
+.hero__call-to-action button + button {
+    background: unset;
+    color: var(--white);
+    border: 1px solid var(--white);
+    margin-left: 1rem;
+}
+
+.hero__call-to-action button:hover {
+    background: var(--Very-light-red);
+    color: var(--white);
+}
+
+.hero__call-to-action button + button:hover {
+    background: var(--white);
+    color: var(--Very-light-red);
+}

@@ -1,0 +1,49 @@
+/* 5. SECTION TWO */
+
+.infrastructure {
+    max-height: 50vh;
+    margin-top: 8rem;
+    border-radius: 0 100px 0 100px;
+    background: linear-gradient(to right, var(--Very-dark-gray-blue-lg), var(--Very-dark-desaturated-blue-lg));
+}
+
+.infra--flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-height: inherit;
+}
+
+/* 5.1 IMG and INFO */
+
+/* 5.1.1 IMG */
+
+.infrastructure__img {
+    width: 36vw;
+    min-width: 25em;
+    height: 75vh;
+    background-image: url(../images/bg-pattern-circles.svg);
+    background-size: 30vw 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* 5.1.2 INFO */
+
+.infrastructure__info {
+    align-self: center;
+    max-width: 28em;
+    margin-left: 1rem;
+}
+
+.infrastructure__info h1 {
+    font-size: 1.9em;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.infrastructure__info p {
+    font-weight: 300;
+    font-size: .9em;
+    color: var(--Grayish-blue);
+}
